@@ -3,6 +3,7 @@ import{ThunkAction} from 'redux-thunk'
 const store = configureStore({
   reducer: {
   },
+  devTools:true,
   middleware:(getDefaultMiddleware: () => any)=>getDefaultMiddleware()
 })
 export type RootState = ReturnType<typeof store.getState>

@@ -1,6 +1,14 @@
-.paragraphContainer{
-    padding:0 2% 0 2%;
-    .paragraph{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
+.paragraphContainer {
+  padding: 0 2% 0 2%;
+}
+
+.paragraph {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.paragraph:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  text-shadow: 0 0 5px rgba(51, 63, 105, 0.5); /* Adjust the glow effect as needed */
+  transition: text-shadow 0.3s ease;
 }
