@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home/home";
 import Navigation from "./components/nav/navigation";
 import Projects from "./pages/projects";
+import Footer from "./components/footer/footer";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ if (rootElement) {
     <React.StrictMode>
       <Navigation />
       <RouterProvider router={router} />
+      <Footer/>
     </React.StrictMode>
   );
 }

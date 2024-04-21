@@ -1,7 +1,11 @@
-#root{
-  height: fit-content;
-  width:fit-content;
+#root {
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: fit-content;
+  overflow-y: auto; /* Add vertical scrollbar when content overflows vertically */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-body{
+
+body {
+  margin: 0; /* Remove default body margin */
   background-color: #E5D1E3;
 }
